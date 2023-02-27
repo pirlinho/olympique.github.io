@@ -1,0 +1,116 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+  color: #000;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+header {
+  background-color: #99CCFF;
+  padding: 10px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav a {
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+
+#Olympique{
+  background-image: url(images/fond.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 230px;
+}
+
+#club{
+  padding: 50px;
+  text-align: center;
+  background-color: #99CCFF;
+}
+
+#équipe{
+  padding: 50px;
+  text-align: center;
+}
+
+#site{
+   padding: 50px;
+   text-align: center;
+   background-color: #99CCFF;
+}
+
+#achats{
+  padding: 50px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 54px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #99CCFF;
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+.collection{
+  height: 300px;
+  margin: 30px;
+}
+
+
+
+button{
+font-size: 15px;
+height: 60px;
+width: 200px;
+margin: 40px;
+border: none;
+border-radius: 10px;
+color: black;
+background-color: #99CCFF;
+transition: background-color 0.5s, color 0.5s;
+}
+button:hover{
+background-color: whitesmoke;
+border: 1px solid ghostwhite;
+color:black;
+}
+
+footer {
+  background-color: #99CCFF;
+  padding: 10px;
+  text-align: center;
+  color: #fff;
+}
